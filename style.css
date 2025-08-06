@@ -1,0 +1,51 @@
+html, body {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    font-family: "sans-serif", Helvetica, Arial;
+}
+
+#wrapper {
+    height: 100%;
+    width: 100%;
+}
+
+#top-bar {
+    height: 1.1rem;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1.2px solid rgb(58, 55, 55);
+    background-color: white;
+}
+
+#spacer {
+    flex-grow: 1;
+}
+
+.icons-setting {
+    margin: 0;
+    padding-left: 0.05rem;
+    height: 100%;
+    aspect-ratio: 1/1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.images {
+    margin: 0;
+    height: 75%;
+    width: 75%;
+}
+
+#text {
+    margin: 0 0.15rem 0 0.15rem;
+    max-width: 100%;
+    padding-top: 1.1rem;
+    overflow-wrap: break-word;
+    white-space: normal;
+    font-size: 13px;
+}
